@@ -49,7 +49,7 @@ string shortest_string(vector<string>& v)
         }
     return v[min_index];
 }
-
+// returns lexicographically first string in a vector of strings
 string first_string(const vector<string>& v)
 {
     if (v.size() == 0) error("alpha_first_string: argument is empty vector");
